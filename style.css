@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scene,canvas
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: #aaaaaa; */
+}
+
+.controls
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.tray__slide
+{
+    display: flex;
+}
+
+.tray__swatch
+{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.options
+{
+    position: absolute;
+    left: 0;
+    top: 0%;
+    display: flex;
+}
+
+.options .option
+{
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+.options img
+{
+    width: 30px;
+    height: 30px;
+}
